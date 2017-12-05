@@ -86,9 +86,7 @@ public class InactivePlayers implements WurmServerMod, ServerStartedListener, Co
             }
             writer.close();
             rsGetPlayers.close();
-
-            playerDB.close();
-            zonesDB.close();
+            
 
             long timeEnd = System.currentTimeMillis();
             logger.log(Level.INFO, "Finished after "+ (timeEnd-timeStart) +"ms.");
