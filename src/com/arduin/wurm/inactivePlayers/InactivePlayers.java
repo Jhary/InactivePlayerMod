@@ -14,6 +14,8 @@ import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+
+
 public class InactivePlayers implements WurmServerMod, ServerStartedListener, Configurable {
 
     private Logger logger = Logger.getLogger("InactivePlayersMod");
@@ -35,8 +37,8 @@ public class InactivePlayers implements WurmServerMod, ServerStartedListener, Co
 
     @Override
     public void onServerStarted() {
-        File oldFile = new File(fileName);
-        oldFile.delete();
+//        File oldFile = new File(fileName);
+//        oldFile.delete();
         if(this.isActive){
             this.compileData();
         }
