@@ -86,7 +86,7 @@ public class InactivePlayers implements WurmServerMod, ServerStartedListener, Co
             }
             writer.close();
             rsGetPlayers.close();
-            
+
 
             long timeEnd = System.currentTimeMillis();
             logger.log(Level.INFO, "Finished after "+ (timeEnd-timeStart) +"ms.");
@@ -103,7 +103,7 @@ public class InactivePlayers implements WurmServerMod, ServerStartedListener, Co
 
     @Override
     public String getVersion() {
-        return "v1.0";
+        return "v1.0.2";
     }
 
     @Override
