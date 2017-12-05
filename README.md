@@ -1,7 +1,6 @@
 ### Description
 What this mod does is essentially a lookup in the database for which players are inactive for the minimum amount of days configured 
 and then dumping the informationinto a formatted textfile in the server root folder. 
-If the mod is set to inactive, it will clean up after itself and delete the textfile from the server root folder if it exists.
  
 It will never, at any point, write anything to the database. It just performs a safe lookup through the wurmplayers.db and wurmzones.db
  
